@@ -1,0 +1,24 @@
+{
+  "name": "team-generator",
+  "version": "1.0.0",
+  "author": "noreikam",
+  "description": "",
+  "homepage": "https://github.com/noreikam/team-generator#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/noreikam/team-generator/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://https://github.com/noreikam/team-generator"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "jest": "28.1.0"
+  }
+}
