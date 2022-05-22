@@ -1,8 +1,9 @@
 const promptUser = require('./utils/promptUser');
-const generateHTML = require('./src/generateHTML');
+const generateHTML = require('./src/html-template');
 
 
 promptUser()
-  .then(teamData => {
-    return generateHTML(teamData)
-  })
+  // .then(teamData => {
+  //   return generateHTML(teamData);
+  // })
+

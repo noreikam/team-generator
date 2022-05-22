@@ -2,6 +2,7 @@ const inquirer = require('inquirer');
 const Manager = require('../lib/Manager');
 const Engineer = require('../lib/Engineer');
 const Intern = require('../lib/Intern');
+const htmlTemplate = require('../src/html-template');
 
 const team = [];
 
@@ -112,11 +113,12 @@ const promptUser = () => {
         break;
       case 'Add Intern': addIntern();
         break;
-      case 'Complete Team': return team;
+      case 'Complete Team':
+        //return team;
+        htmlTemplate(team);
+        break;
     }
   } )
 }
-
-
 
 module.exports = promptUser;
